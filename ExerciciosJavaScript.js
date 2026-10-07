@@ -27,6 +27,8 @@ function secondLargest(numbers = []) {
 
 /*==============================================================
 ________________________EXERCICIO 02____________________________
+2. compacta uma string de várias letras iguais usando um 
+contador exemplo: aaassssrrr resulta em 3a4s3r
 ==============================================================*/
 
 function compactarString(text = "") {
@@ -43,6 +45,8 @@ function compactarString(text = "") {
 
 /*==============================================================
 ________________________EXERCICIO 03____________________________
+3. realiza as contas de quantas notas o caixa deve devolver 
+usando o valor que ele inserir
 ==============================================================*/
 
 function caixa(ValorSaque = 0) {
@@ -89,7 +93,10 @@ function caixa(ValorSaque = 0) {
 
 /*==============================================================
 ________________________EXERCICIO 04____________________________
+4. Agrupa pessoas usando a idade em menores de idade, maiores e 
+idosos
 ==============================================================*/
+
 function agruparIdade(Pessoas = [{ nome: "", idade: "" }]) {
   const resultado = Pessoas.reduce(
     (acc, atual) => {
